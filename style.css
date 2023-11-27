@@ -1,0 +1,17 @@
+.box{
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    display: grid;
+}
+body{
+    display: flex;
+    gap: 50px;
+}
+.options{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: relative;
+    top: 100px;
+}
